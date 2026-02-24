@@ -52,3 +52,12 @@ The dataset required significant preprocessing before analysis:
 - Power Query
 - DAX
 - Data Cleaning & Transformation
+
+---
+
+## How to Use the Dashboard
+
+- Use the **Category filter** to analyze specific product segments.
+- Use the **Price Range filter** to explore budget vs premium trends.
+- KPIs dynamically update based on applied filters.
+- The dashboard is designed to identify pricing concentration and customer satisfaction gaps across categories.
