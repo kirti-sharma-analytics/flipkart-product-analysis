@@ -1,5 +1,7 @@
 # Flipkart Product Analysis (Power BI)
 
+![Dashboard Overview](dashboard-overview.png)
+
 ## Project Overview
 This project analyzes a Flipkart product listings dataset (19,602 records after cleaning) to understand pricing distribution, category performance, and customer satisfaction trends.
 
