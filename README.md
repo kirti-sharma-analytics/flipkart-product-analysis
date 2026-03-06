@@ -99,6 +99,19 @@ flipkart-product-analysis
 ├── dashboard-overview-flipkart.png
 └── README.md
 ```
+## How to Use the Dashboard
+
+Download the Power BI file from this repository.
+
+Open **flipkart-product-analysis.pbix** in Microsoft Power BI Desktop.
+
+Use the filters on the left side of the dashboard to analyze the data by:
+
+Category
+Price Bucket
+Brands
+
+All charts and metrics update automatically based on the selected filters.
 
 ## Author
 
