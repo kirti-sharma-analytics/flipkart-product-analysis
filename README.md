@@ -95,8 +95,8 @@ This project was developed using the following tools and techniques:
 ```
 flipkart-product-analysis
 │
-├── flipkart_dashboard.pbix
-├── dashboard_overview.png
+├── flipkart-product-analysis.pbix
+├── dashboard-overview-flipkart.png
 └── README.md
 ```
 
