@@ -10,7 +10,7 @@ The objective of this project is to demonstrate how business intelligence tools 
 
 ## Dashboard Preview
 
-![Dashboard](dashboard-overview-flipkart .png)
+![Dashboard](dashboard-overview-flipkart.png)
 
 ## Key Metrics
 
