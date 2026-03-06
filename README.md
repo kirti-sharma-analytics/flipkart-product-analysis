@@ -1,63 +1,46 @@
-# Flipkart Product Analysis (Power BI)
+# Flipkart Product Analysis Dashboard
 
-![Dashboard Overview](dashboard-overview.png)
+An interactive dashboard analyzing Flipkart product listings to understand pricing distribution, category performance, and customer satisfaction trends across the platform.
 
-## Project Overview
-This project analyzes a Flipkart product listings dataset (19,602 records after cleaning) to understand pricing distribution, category performance, and customer satisfaction trends.
+## Overview
 
-The objective was to explore how product pricing, category concentration, and ratings vary across different segments.
+This project presents a comprehensive analysis of Flipkart product listings using Power BI. The dashboard transforms raw product data into actionable insights, helping explore how pricing, product categories, brands, and customer ratings are distributed across the marketplace.
 
----
+The objective of this project is to demonstrate how business intelligence tools can be used to analyze large e-commerce datasets and uncover patterns related to product pricing, category dominance, and customer satisfaction.
 
-## Dataset Information
-- Source: Kaggle
-- Records analyzed: 19,602
-- Columns: 15
-- Data Type: E-commerce product listings
+## Dashboard Preview
 
----
+![Dashboard](dashboard_overview.png)
 
-## Data Cleaning & Preparation
-The dataset required significant preprocessing before analysis:
+## Key Metrics
 
-- Removed duplicate records
-- Handled null values in Retail Price
-- Replaced missing Brand values with "Unknown"
-- Cleaned and structured category hierarchy into 3 levels
-- Converted mixed rating columns (text + numeric) into proper decimal format
-- Created price buckets for segmentation analysis
-- Built DAX measures for KPIs and rating segmentation
+The dashboard summarizes core marketplace indicators that provide a quick overview of product availability, pricing trends, and brand presence.
 
----
+| Metric                     | Value    |
+| -------------------------- | -------- |
+| **Total Products Listed**  | **17K**  |
+| **Average Product Rating** | **3.8**  |
+| **Total Brands**           | **2652** |
+| **Average Retail Price**   | **₹3K**  |
 
-## Key KPIs Designed
-- Total Products
-- Average Retail Price
-- Average Product Rating
-- Number of Brands
+These metrics provide a high-level snapshot of Flipkart's product ecosystem, highlighting the scale of listings and general customer satisfaction levels.
 
----
+## Business Questions Answered
+
+The dashboard helps explore several important analytical questions:
+
+* Which product categories contain the highest number of listings?
+* How are products distributed across different price ranges?
+* Which categories receive the highest customer ratings?
+* Which product categories have the highest average retail price?
+* How do pricing patterns vary across categories and price buckets?
+* Which brands and categories dominate the marketplace?
 
 ## Key Insights
 
-1. Majority of products are concentrated in the ₹1000–₹5000 price range, indicating mid-market dominance.
-2. Clothing has the highest product volume but relatively lower average ratings (~3.6).
-3. Premium categories such as Furniture show higher average prices but lower customer satisfaction.
-4. Niche categories like E-books and Home Entertainment demonstrate stronger rating performance despite lower listing volume.
+Analysis of the dataset reveals several notable patterns within the Flipkart marketplace:
 
----
+* The **₹1000–₹5000 price range contains the highest concentration of products**, indicating strong mid-range market dominance.
+* **Clothing has the largest number of product listings**, making it the most competitive category on the platform.
+* Premium categories such as **Furniture and Automation & Robotics have significantly higher average retail prices** compared to other categories
 
-## Tools Used
-- Power BI
-- Power Query
-- DAX
-- Data Cleaning & Transformation
-
----
-
-## How to Use the Dashboard
-
-- Use the **Category filter** to analyze specific product segments.
-- Use the **Price Range filter** to explore budget vs premium trends.
-- KPIs dynamically update based on applied filters.
-- The dashboard is designed to identify pricing concentration and customer satisfaction gaps across categories.
