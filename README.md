@@ -10,7 +10,7 @@ The objective of this project is to demonstrate how business intelligence tools 
 
 ## Dashboard Preview
 
-![Dashboard](dashboard-overview-flipkart.png)
+![Dashboard](dashboard_overview.png)
 
 ## Key Metrics
 
@@ -42,5 +42,66 @@ Analysis of the dataset reveals several notable patterns within the Flipkart mar
 
 * The **₹1000–₹5000 price range contains the highest concentration of products**, indicating strong mid-range market dominance.
 * **Clothing has the largest number of product listings**, making it the most competitive category on the platform.
-* Premium categories such as **Furniture and Automation & Robotics have significantly higher average retail prices** compared to other categories
+* Premium categories such as **Furniture and Automation & Robotics have significantly higher average retail prices** compared to other categories.
+* Categories like **E-books and Home Entertainment show strong customer ratings**, despite having fewer product listings.
+* A large number of categories maintain **average ratings between 3.5 and 4.5**, suggesting moderate overall customer satisfaction.
+
+## Dashboard Features
+
+The dashboard includes several interactive components designed to enable deeper exploration of the data:
+
+* Category-level filtering to analyze product distribution
+* Price bucket segmentation to study pricing patterns
+* Brand-level filtering to evaluate product presence across brands
+* Price range distribution of products across categories
+* Category-wise average rating comparison
+* Category-wise average retail price analysis
+* Top categories by product count
+
+## Dataset Information
+
+The dataset used in this project contains Flipkart product listing data sourced from Kaggle.
+
+* Records analyzed: 19,602
+* Columns: 15
+* Data Type: E-commerce product listings
+
+The dataset includes information such as product category, brand, retail price, discounted price, and customer rating.
+
+## Data Preparation
+
+Several preprocessing steps were performed to ensure data quality and consistency before building the dashboard:
+
+* Removed duplicate records
+* Handled missing values in retail price fields
+* Replaced missing brand values with "Unknown"
+* Structured category hierarchy into multiple levels
+* Converted rating values into numeric format
+* Created price bucket segmentation for analysis
+* Built DAX measures for KPI calculations
+
+## Tools and Technologies
+
+This project was developed using the following tools and techniques:
+
+* Power BI
+* Power Query
+* DAX
+* Data Cleaning and Transformation
+* Data Visualization
+
+## Project Structure
+
+```
+flipkart-product-analysis
+│
+├── flipkart_dashboard.pbix
+├── dashboard_overview.png
+└── README.md
+```
+
+## Author
+
+Kirti Sharma
+
 
